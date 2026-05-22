@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kaggle competition data - not redistributed (see README)
+*.csv
+!submissions/submission_v1.csv
+SampleSubmission*.csv
+
+# Training artifacts
+catboost_info/
+models/
+*.pkl
+*.joblib
+
+# Local memory / agent state
+memory/
+.claude/
+CLAUDE.md
